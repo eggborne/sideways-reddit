@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.9/jquery.mousewheel.min.js'></script>
+    <script src='js/script.js'></script>
+    <title>Sideways Reddit</title>
+  </head>
+  <body onload="slideLettersIn()">
+    <div id="header-area">
+      <div id="hamburger">
+        <div style="top:9px" class="hamburger-bar"></div>
+        <div style="margin: 9px 0px 9px 0px" class="hamburger-bar"></div>
+        <div class="hamburger-bar"></div>
+      </div>
+      <div id="logo">
+        <div class="logo-letter">S</div>
+        <div class="logo-letter">I</div>
+        <div class="logo-letter">D</div>
+        <div class="logo-letter">E</div>
+        <div class="logo-letter">W</div>
+        <div class="logo-letter">A</div>
+        <div class="logo-letter">Y</div>
+        <div class="logo-letter">S</div>
+        <div class="logo-letter">&nbsp;&nbsp;</div>
+        <div class="logo-letter">R</div>
+        <div class="logo-letter">E</div>
+        <div class="logo-letter">D</div>
+        <div class="logo-letter">D</div>
+        <div class="logo-letter">I</div>
+        <div class="logo-letter">T</div>
+      </div>
+    </div>
+    <div id="scroll-area">
+      <!-- use JS to generate these with Reddit API data -->
+      <div class="post panel panel-success">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <a href="#">Post title. Apples oranges lemons bananas potatos cucumbers?</a>
+          </h2>
+        </div>
+        <div class="panel-body">
+          Post body. Apples oranges lemons bananas cucumbers? Apples oranges lemons bananas potatos cucumbers Apples oranges lemons bananas cucumbers Apples oranges lemons bananas cucumbers Apples oranges lemons bananas cucumbers!
+        </div>
+        <div class="panel-footer">
+          <div class="row">
+            <div class="col-md-4"><span style="float:left"><a href="#">by u/Username</a></span></div>
+            <div class="col-md-5"></div>
+            <div class="col-md-3"><span style="float:right"><a href="#">in r/Subreddit</a></span></div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </body>
+</html>

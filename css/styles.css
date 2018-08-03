@@ -1,0 +1,65 @@
+body {
+  height:100vh;
+  overflow: hidden;
+}
+#header-area {
+  /* position:fixed; */
+  box-sizing: border-box;
+  left:0;
+  top:0;
+  width:100vw;
+  height:60px;
+  background:rgb(206, 206, 206);
+  /* display:block; */
+  margin-bottom:20px;
+}
+#scroll-area {
+  position:relative;
+  height:100vh;
+}
+#hamburger {
+  padding:9px;
+  padding-right:12px;
+  text-align:center;
+  height:60px;
+  width:60px;
+  background:grey;
+  display:inline-block;
+}
+#logo {
+  height:60px;
+  position:fixed;
+  left:100vw;
+  top:0;
+  transition: opacity 1200ms ease, left 1500ms;
+  opacity:0;
+  /* background:yellow */
+}
+.hamburger-bar {
+  height:7px;
+  width:40px;
+  background:white;
+}
+.logo-letter {
+  height:100%;
+  position:relative;
+  font-size:50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display:inline-block;
+  bottom:10px;
+  color:white;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+  transition: transform 600ms ease, margin 1000ms ease;
+  /* background:green; */
+  margin: 5px 10px 0px 10px;
+  text-shadow: 0px 0px 6px #000;
+  
+}
+.post {
+  width:600px;
+  margin:10px;
+}
+
+
